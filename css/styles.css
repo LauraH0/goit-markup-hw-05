@@ -763,12 +763,19 @@ button {
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid var(--primary-blue-color);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  /* border: 1px solid var(--primary-blue-color);
   padding-left: 38px;
   outline: transparent;
   background-color: transparent;
 
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);; */
+}
+
+.form-icon {
+  position: absolute;
 }
 
 .block-input
@@ -784,8 +791,8 @@ button {
   display: flex;
 }
 
-.form-input-hidden:checked + .form-label-privasy .privacy-send {
+/* .form-input-hidden:checked {
   background-color: var(--button-color);
   border: none;
   fill: var(--white-color);
-}
+} */
