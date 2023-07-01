@@ -467,6 +467,71 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="form-title">Leave your contacts and we will call you back</p>
+        <form class="form" name="issue_report_form" autocomplete="off">
+          <div class="ancket-container">
+            <label class="form-label">Name</label>
+            <div class="block-input">
+              <input class="form-input" type="text" name="username" autofocus />
+              <svg class="form-icon" width="18" heidth="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="ancket-container">
+            <label class="form-label">Phone</label>
+            <div class="block-input">
+              <input class="form-input" type="tel" name="userphone" />
+              <svg class="form-icon" width="18" heidth="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="ancket-container">
+            <label class="form-label">Email</label>
+            <div class="block-input">
+              <input class="form-input" type="email" name="useremail" />
+              <svg class="form-icon" width="18" heidth="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="ancket-container-text">
+            <label class="form-label"> Comment</label>
+            <div class="block-input-text">
+              <textarea
+                class="form-input"
+                name="useremail"
+                placeholder="Text input"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="accept-container">
+            <input
+              type="checkbox"
+              class="form-input-hidden visually-hidden"
+              name="accept"
+              value="accept"
+              id="privasy"
+            />
+            <label class="form-label-privasy" for="accept"
+              ><span class="privacy-send"
+                ><svg class="" width="10" heidth="8">
+                  <use
+                    href="./images/icons.svg#icon-checkbox"
+                  ></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="" class="accept-link">Policy Send</a>
+            </label>
+          </div>
+
+          <button class="form-button" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
