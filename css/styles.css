@@ -840,6 +840,10 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.form-input-txeader::placeholder {
+  color: rgba(46, 47, 66, 0.40);
+}
+
 .form-input-txeader:focus-within {
   border-color: var(--primary-blue-color);
 }
@@ -896,10 +900,6 @@ button {
   justify-content: center;
   fill: transparent;
 }
-
-/* .form-last-icon {
-  fill: var(--white-color);
-} */
 
 .form-input-hidden:checked + .form-label-privasy .privacy-send {
   background-color: var(--button-color);
