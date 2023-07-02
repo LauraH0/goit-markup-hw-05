@@ -656,7 +656,8 @@ img {
   color: var(--white-color);
 }
 
-.footer-lab {
+.footer-form {
+  display: flex;
   gap: 24px;
 }
 
