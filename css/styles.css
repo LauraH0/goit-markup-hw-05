@@ -892,7 +892,7 @@ button {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked .privacy-send {
+.form-input-hidden:checked + .form-label-privasy .privacy-send {
   background-color: var(--button-color);
   border: none;
   fill: var(--gray-background-color);
