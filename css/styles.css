@@ -838,7 +838,7 @@ button {
   fill: transparent;
 }
 
- input:checked .privacy-send {
+input[type="checkbox"]:checked .privacy-send {
   background-color: var(--button-color);
   border: none;
   fill: var(--gray-background-color);
