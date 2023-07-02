@@ -679,6 +679,10 @@ img {
   color: var(--white-color);
 }
 
+.footer-container-form {
+  margin-left: 80px;
+}
+
 .footer-form-button {
   min-width: 165px;
   height: 40px;
@@ -698,6 +702,7 @@ img {
 }
 
 .button-icon {
+  fill: var(--white-color);
   margin-left: 16px;
 }
 
@@ -884,13 +889,17 @@ button {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
+
+/* .form-last-icon {
+  fill: var(--white-color);
+} */
 
 .form-input-hidden:checked + .form-label-privasy .privacy-send {
   background-color: var(--button-color);
