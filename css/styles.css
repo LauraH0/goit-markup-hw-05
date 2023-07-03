@@ -916,29 +916,6 @@ button {
 
 
 
-.ic-click {
-  opacity: 0;
-}
-
-.ic-unclick {
-  opacity: 1;
-}
-
-/* .form-input-hidden:focus-visible {
-  border: 1px solid rgba(77, 90, 229, 1);
-  outline-color: none;
-}
-
-.privacy-send:checked+.form-last-icon>.ic-unclick {
-  opacity: 0;
-}
-
-.privacy-send:checked+.form-last-icon>.ic-click {
-  opacity: 1;
-} */
-
-
-
 
 .accept-link {
   color: var(--primary-blue-color);
